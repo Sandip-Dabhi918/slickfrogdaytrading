@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "functions": {
+    "src/pages/api/ws-market.ts": {
+      "maxDuration": 300
+    },
+    "src/pages/api/ws-twelve.ts": {
+      "maxDuration": 300
+    },
+    "src/pages/api/run-scanner.ts": {
+      "maxDuration": 60
+    }
+  }
+}
